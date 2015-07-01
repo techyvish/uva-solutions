@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF59528CD4248DEC64E23793 /* uva494.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF59522FFF271E78840A9947 /* uva494.cpp */; };
+		CF595732930862E63B9846E9 /* uva11172.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF59590464E911489B808AA5 /* uva11172.cpp */; };
+		CF5957DA299854887D3DF113 /* uva458.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF59536357DE164FC341D812 /* uva458.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF5958C495EAFED846450447 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF59522FFF271E78840A9947 /* uva494.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uva494.cpp; sourceTree = "<group>"; };
+		CF59536357DE164FC341D812 /* uva458.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uva458.cpp; sourceTree = "<group>"; };
+		CF5955A90759EA277370FCBE /* uva494.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uva494.txt; sourceTree = "<group>"; };
+		CF5956D8CBC7B14043D94A8D /* uva-solutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "uva-solutions"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF59590464E911489B808AA5 /* uva11172.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uva11172.cpp; sourceTree = "<group>"; };
+		CF595BBE7D2AB87FE0E4932F /* uva11172.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uva11172.txt; sourceTree = "<group>"; };
+		CF595CC0F875E3F9B42BCEE4 /* uva458.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uva458.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF595ADD6C287AB0AE2EC8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF59553995CA3F3AE8E821D4 = {
+			isa = PBXGroup;
+			children = (
+				CF595C0A3DCAA5EB415B623E /* Products */,
+				CF5958A53687B6908BC54D90 /* uva-solutions */,
+			);
+			sourceTree = "<group>";
+		};
+		CF5958A53687B6908BC54D90 /* uva-solutions */ = {
+			isa = PBXGroup;
+			children = (
+				CF59536357DE164FC341D812 /* uva458.cpp */,
+				CF595CC0F875E3F9B42BCEE4 /* uva458.txt */,
+				CF59590464E911489B808AA5 /* uva11172.cpp */,
+				CF595BBE7D2AB87FE0E4932F /* uva11172.txt */,
+				CF59522FFF271E78840A9947 /* uva494.cpp */,
+				CF5955A90759EA277370FCBE /* uva494.txt */,
+			);
+			path = "uva-solutions";
+			sourceTree = "<group>";
+		};
+		CF595C0A3DCAA5EB415B623E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF5956D8CBC7B14043D94A8D /* uva-solutions */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF595498E86EA3B4FB825734 /* uva-solutions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF595F7A3DB4CF93116AAA2A /* Build configuration list for PBXNativeTarget "uva-solutions" */;
+			buildPhases = (
+				CF5954684362F1FC6748D88F /* Sources */,
+				CF595ADD6C287AB0AE2EC8A8 /* Frameworks */,
+				CF5958C495EAFED846450447 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "uva-solutions";
+			productName = "uva-solutions";
+			productReference = CF5956D8CBC7B14043D94A8D /* uva-solutions */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF595851C65A725B5BB03F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Vishal Patel";
+			};
+			buildConfigurationList = CF5958A789E589215B0E2196 /* Build configuration list for PBXProject "uva-solutions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF59553995CA3F3AE8E821D4;
+			productRefGroup = CF595C0A3DCAA5EB415B623E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF595498E86EA3B4FB825734 /* uva-solutions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF5954684362F1FC6748D88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5957DA299854887D3DF113 /* uva458.cpp in Sources */,
+				CF595732930862E63B9846E9 /* uva11172.cpp in Sources */,
+				CF59528CD4248DEC64E23793 /* uva494.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF5952141D7CEF4AE07C44BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_UNUSED_VALUE = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF595BB44D3D484180603732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF595C7F111530FA5EB6E177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF595F819FC2525B8750E39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_UNUSED_VALUE = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF5958A789E589215B0E2196 /* Build configuration list for PBXProject "uva-solutions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF595BB44D3D484180603732 /* Debug */,
+				CF595C7F111530FA5EB6E177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF595F7A3DB4CF93116AAA2A /* Build configuration list for PBXNativeTarget "uva-solutions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF595F819FC2525B8750E39D /* Debug */,
+				CF5952141D7CEF4AE07C44BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF595851C65A725B5BB03F52 /* Project object */;
+}
