@@ -10,6 +10,7 @@
 		CF59528CD4248DEC64E23793 /* uva494.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF59522FFF271E78840A9947 /* uva494.cpp */; };
 		CF595732930862E63B9846E9 /* uva11172.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF59590464E911489B808AA5 /* uva11172.cpp */; };
 		CF5957DA299854887D3DF113 /* uva458.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF59536357DE164FC341D812 /* uva458.cpp */; };
+		CF59596EB1EAE4996516FD14 /* ScanTricks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF595ABF308D7A07E6FBFE5C /* ScanTricks.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,10 +27,12 @@
 
 /* Begin PBXFileReference section */
 		CF59522FFF271E78840A9947 /* uva494.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uva494.cpp; sourceTree = "<group>"; };
+		CF595351E0C56AB73C50EEE3 /* scan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scan.txt; sourceTree = "<group>"; };
 		CF59536357DE164FC341D812 /* uva458.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uva458.cpp; sourceTree = "<group>"; };
 		CF5955A90759EA277370FCBE /* uva494.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uva494.txt; sourceTree = "<group>"; };
 		CF5956D8CBC7B14043D94A8D /* uva-solutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "uva-solutions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF59590464E911489B808AA5 /* uva11172.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uva11172.cpp; sourceTree = "<group>"; };
+		CF595ABF308D7A07E6FBFE5C /* ScanTricks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScanTricks.cpp; sourceTree = "<group>"; };
 		CF595BBE7D2AB87FE0E4932F /* uva11172.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uva11172.txt; sourceTree = "<group>"; };
 		CF595CC0F875E3F9B42BCEE4 /* uva458.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uva458.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +65,8 @@
 				CF595BBE7D2AB87FE0E4932F /* uva11172.txt */,
 				CF59522FFF271E78840A9947 /* uva494.cpp */,
 				CF5955A90759EA277370FCBE /* uva494.txt */,
+				CF595ABF308D7A07E6FBFE5C /* ScanTricks.cpp */,
+				CF595351E0C56AB73C50EEE3 /* scan.txt */,
 			);
 			path = "uva-solutions";
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 				CF5957DA299854887D3DF113 /* uva458.cpp in Sources */,
 				CF595732930862E63B9846E9 /* uva11172.cpp in Sources */,
 				CF59528CD4248DEC64E23793 /* uva494.cpp in Sources */,
+				CF59596EB1EAE4996516FD14 /* ScanTricks.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
