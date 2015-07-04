@@ -1,7 +1,5 @@
-6
-first
-first
-second
-second
-third
-third
+4
+abacaba
+acaba
+abacaba
+acab
