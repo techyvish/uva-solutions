@@ -16,7 +16,7 @@
 #define pf printf
 #define Pi 2*acos(0.0)
 using namespace std;
-int main()
+int main_uva494()
 {
     int i,c,w;
     char a[1000];
