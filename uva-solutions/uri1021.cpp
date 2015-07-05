@@ -24,6 +24,7 @@
 #include <fstream>
 #include <ostream>
 #include <sstream>
+#include <iomanip>
 
 #define fin cin
 
@@ -33,32 +34,40 @@
 #define Pi 2*acos(0.0)
 
 using namespace std;
-
-int main()
+double ceil(double v, int p)
 {
-    //fstream fin("/Users/vishal/Cerebro/uva-solutions/uva-solutions/uri1021.txt");
+    v *= pow(10, p);
+    v = ceil(v);
+    v /= pow(10, p);
+    return v;
+}
 
+int main_uri1021()
+{
+
+    //fstream fin("/Users/vishal/Cerebro/uva-solutions/uva-solutions/uri1021.txt");
     double amount = 0.0f;
     fin >> amount;
     double notas[6] = {100, 50, 20, 10, 5, 2};
     double moedas[6] = {1, 0.50, 0.25, 0.10, 0.05 ,0.01};
 
+    amount = ceil(amount,2);
     int n = 6;
     printf("NOTAS:\n");
     for ( int i = 0 ; i < 6 ; i++ )
     {
-        double rem = fmod(amount ,notas[i]);
-        double amt = amount/ notas[i];
-        printf("%d nota(s) de R$ %.2f\n",(int)amt,((int)amt != 0 ? (int)amt : 1)*notas[i]);
+        double rem = fmodf(amount ,notas[i]);
+        double amt = ceil(amount/ notas[i],2);
+        printf("%d nota(s) de R$ %.2f\n",(int)amt,notas[i]);
         amount = rem;
     }
 
     printf("MOEDAS:\n");
     for ( int i = 0 ; i < 6 ; i++ )
     {
-        double rem = fmod(amount ,moedas[i]);
-        double amt = amount/ moedas[i];
-        printf("%d moeda(s) de R$ %.2f\n",(int)amt,((int)amt != 0 ? (int)amt : 1)*moedas[i]);
+        double rem = fmodf(amount ,moedas[i]);
+        double amt = ceil(amount/ moedas[i],2);
+        printf("%d moeda(s) de R$ %.2f\n",(int)amt,moedas[i]);
         amount = rem;
     }
     return 0 ;
