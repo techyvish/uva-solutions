@@ -100,7 +100,7 @@ public:
     }
 };
 
-int main()
+int main_segment()
 {
     int arr[]= {18,17,13,19,15,11,20};
     //vi A(arr,arr+7);
