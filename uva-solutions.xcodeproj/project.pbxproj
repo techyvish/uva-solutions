@@ -18,6 +18,7 @@
 		CF59596EB1EAE4996516FD14 /* ScanTricks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF595ABF308D7A07E6FBFE5C /* ScanTricks.cpp */; };
 		CF595B96FB701944E137A9E9 /* cf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF59509EC392E9E99EB48DC4 /* cf.cpp */; };
 		CF595E0507A828BF09A18C23 /* uva11450.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF595F64A8658489693B4D68 /* uva11450.cpp */; };
+		CF595F84AF313A4AFCCFADF9 /* DBOY.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF59566C498BDAFCBCB8B1D1 /* DBOY.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,9 +39,11 @@
 		CF595351E0C56AB73C50EEE3 /* scan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scan.txt; sourceTree = "<group>"; };
 		CF59536357DE164FC341D812 /* uva458.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uva458.cpp; sourceTree = "<group>"; };
 		CF5954D520B7342EE98B1DF1 /* SegmentTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SegmentTree.cpp; sourceTree = "<group>"; };
+		CF5954F9F1E9F252B251F4F6 /* DBOY.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DBOY.txt; sourceTree = "<group>"; };
 		CF5955A90759EA277370FCBE /* uva494.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uva494.txt; sourceTree = "<group>"; };
 		CF5955B7CB55A078737C710F /* registration.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = registration.txt; sourceTree = "<group>"; };
 		CF5955DBC58FAD4572C95384 /* uva11450.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uva11450.txt; sourceTree = "<group>"; };
+		CF59566C498BDAFCBCB8B1D1 /* DBOY.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DBOY.cpp; sourceTree = "<group>"; };
 		CF5956D8CBC7B14043D94A8D /* uva-solutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "uva-solutions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF59575976DE02E1BEE40EFA /* uri1021.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uri1021.txt; sourceTree = "<group>"; };
 		CF595774FF7D6F5078A798CB /* uri1024.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uri1024.cpp; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				CF595FFF3A1A105A22D40E5E /* uri1024.txt */,
 				CF595F64A8658489693B4D68 /* uva11450.cpp */,
 				CF5955DBC58FAD4572C95384 /* uva11450.txt */,
+				CF59566C498BDAFCBCB8B1D1 /* DBOY.cpp */,
+				CF5954F9F1E9F252B251F4F6 /* DBOY.txt */,
 			);
 			path = "uva-solutions";
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				CF595485FA65DB3F0341A0BB /* SegmentTree.cpp in Sources */,
 				CF59569963A2FFA27276479D /* uri1024.cpp in Sources */,
 				CF595E0507A828BF09A18C23 /* uva11450.cpp in Sources */,
+				CF595F84AF313A4AFCCFADF9 /* DBOY.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
