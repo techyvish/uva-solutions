@@ -92,11 +92,15 @@ const double eps = 1e-9;
 #define fin cin
 
 int N,ans,h[501],k[501];
+int ans[501];
+int solve(){
 
-int deliver(){
+    for ( int i = 0 ; i < N ; i++ ){
 
+        for (int j = 0 ; j< i ; j++ ){
 
-    return 0;
+        }
+    }
 }
 
 int main_dboy() {
